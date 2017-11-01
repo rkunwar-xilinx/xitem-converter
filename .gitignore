@@ -1,4 +1,7 @@
-node_modules/
 npm-debug.log
-test.json
+node_modules/
 .vscode/
+templates/
+test.json
+xitem.json
+description.json

@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/rkunwar-xilinx/xitem-converter#readme",
   "dependencies": {
-    "file-system": "^2.2.2"
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "jsonfile": "^4.0.0",
+    "node-schema-object": "^3.3.4",
+    "path": "^0.12.7"
   }
 }
