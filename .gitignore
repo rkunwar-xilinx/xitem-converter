@@ -5,3 +5,4 @@ templates/
 test.json
 xitem.json
 description.json
+!example/description.json
