@@ -1,0 +1,29 @@
+{
+  "name": "xitem-converter",
+  "version": "1.0.0",
+  "description": "This app will convert description.json file to xitem.json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkunwar-xilinx/xitem-converter.git"
+  },
+  "keywords": [
+    "xitem",
+    "xhub",
+    "xstore",
+    "xitem.json",
+    "description.json"
+  ],
+  "author": "Rahul Kunwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkunwar-xilinx/xitem-converter/issues"
+  },
+  "homepage": "https://github.com/rkunwar-xilinx/xitem-converter#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}
