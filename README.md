@@ -22,6 +22,6 @@ npm install
 node xitem-conv.js
 ```
 
-** Once `node xitem-conv.js` command runs it recursively finds description.json file and converts it to xitem.json **
+*Once `node xitem-conv.js` command runs it recursively finds description.json file and converts it to xitem.json*
 
 So the output will be example/xitem.json file
