@@ -20,10 +20,22 @@ fsys.recurse('./', ['**/*.json'], function(filepath, relative, filename) {
             var infraSection = new XItem.Infra();
             var infra = new XItemInfra();
 
-            infra.name = desc.example;
-            infra.description = desc.overview;
-            infra.contributors = desc.contributors;
-            infra.revision = desc.revision[0].version;
+            if(desc.example != undefined)
+                infra.name = desc.example;
+            
+            if(desc.overview != undefined)
+                infra.description = desc.overview;
+
+            if(desc.contributors != undefined)                
+                infra.contributors = desc.contributors;
+
+            if(desc.revision != undefined) {
+                if(desc.revision.length > 0) {
+                    if(desc.revision[0].version != undefined) {
+                        infra.revision = desc.revision[0].version;
+                    }
+                }
+            }
 
             infraSection.infra = infra;
             xitem.config.items.push(infraSection);
